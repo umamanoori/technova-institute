@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAF4FF;
+    color: #333333;
+}
+header{
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+header h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+header p{
+    margin: 8px;
+    font-size: 16px;
+}
+.registration{
+
+    width: 60%;
+    margin: 40px auto;
+    background-color: #1E3A8A;
+    border: 3px solid #1E40AF;
+    border-radius: 12px;
+    padding: 30px;
+
+}
+.registration{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.registration label,
+.registration h2,
+.registration p{
+
+    color: white;
+
+}
+table{
+
+    width:100%;
+
+}td{
+
+    padding:12px;
+
+}
+input,
+select,
+textarea{
+
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    box-sizing:border-box;
+
+}
+input[type="radio"],
+input[type="checkbox"]{
+
+    width:auto;
+
+}
+.contact{
+    width: 60%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact h2{
+    color: #1E3A8A;
+}
+.contact a{
+    text-decoration: none;
+    color: #2563EB;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+.contact{
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+footer{
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer p{
+    margin: 8px;
+}
