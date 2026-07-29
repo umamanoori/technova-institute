@@ -1,8 +1,10 @@
 body{
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EAF4FF;
+
 }
 header{
 
@@ -46,36 +48,85 @@ nav a:hover{
     text-decoration:underline;
 
 }
+/* Hero Section */
+
 .hero{
 
+    background-color: #EAF4FF;
+    color: #1E3A8A;
     text-align: center;
-
-    padding: 40px 20px;
+    padding: 70px 20px;
 
 }
+
 .hero h2{
 
-    color: #1E3A8A;
-
-    font-size: 32px;
-
+    font-size: 36px;
     margin-bottom: 15px;
 
 }
+
 .hero p{
 
-    color: #555;
-
-    font-size: 18px;
-
     width: 70%;
-
     margin: auto;
-
+    font-size: 18px;
     line-height: 1.6;
 
 }
-.timetable{
+/* Courses Section */
+
+.courses{
+
+    width: 90%;
+    margin: 40px auto;
+
+}
+
+.courses h2{
+
+    text-align: center;
+    color: #1E3A8A;
+    margin-bottom: 30px;
+
+}
+.course-card{
+
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+
+}
+.course-card h3{
+
+    color: #1E3A8A;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+.course-card p{
+
+    color: #444;
+    line-height: 1.6;
+    margin: 8px 0;
+
+}
+.course-card strong{
+
+    color: #1E3A8A;
+
+}
+.course-card:hover{
+
+    background-color: #F5F9FF;
+
+}
+
+/* Why Choose Section */
+
+.choose{
 
     width: 90%;
     margin: 40px auto;
@@ -85,103 +136,32 @@ nav a:hover{
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
 
 }
-.timetable h2{
+
+.choose h2{
 
     text-align: center;
     color: #1E3A8A;
-    margin-bottom: 10px;
-
-}
-.timetable p{
-
-    text-align: center;
-    color: #555;
     margin-bottom: 25px;
 
 }
-table{
 
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
+.choose ul{
 
-}
-caption{
-
-    font-size: 22px;
-    font-weight: bold;
-    color: #1E3A8A;
-    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
 
 }
-th{
 
-    background-color: #1E3A8A;
-    color: white;
-    padding: 15px;
-
-}
-td{
-
-    padding: 15px;
-    border: 1px solid #ddd;
-
-}
-tr:nth-child(even){
+.choose li{
 
     background-color: #F5F9FF;
-
-}
-tr:hover{
-
-    background-color: #DCEBFF;
-
-}
-.lunch{
-
-    background-color: #FFD54F;
-    font-weight: bold;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
     color: #333;
-
-}
-.lab{
-
-    background-color: #C8E6C9;
-    font-weight: bold;
-
-}
-.meeting{
-
-    background-color: #FFCDD2;
-    font-weight: bold;
-
-}
-.notes{
-
-    width: 90%;
-    margin: 40px auto;
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
-
-}
-.notes h2{
-
-    color: #1E3A8A;
     text-align: left;
-    margin-bottom: 20px;
-
-}
-.notes ul{
-
-    padding-left: 20px;
-    line-height: 2;
-
-}
-.notes li{
-
-    color: #444;
 
 }
 .contact{

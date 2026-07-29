@@ -1,0 +1,298 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAF4FF;
+
+}
+header{
+
+    background-color:#1E3A8A;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+header h1{
+
+    margin-bottom:10px;
+
+}
+header p{
+
+    margin-bottom:20px;
+
+}
+nav{
+
+    margin-top:15px;
+
+}
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:15px;
+
+    font-weight:bold;
+
+}
+nav a:hover{
+
+    text-decoration:underline;
+
+}
+/* Hero Section */
+
+.hero{
+
+    text-align: center;
+    padding: 70px 20px;
+
+}
+
+.hero h2{
+
+    color: #1E3A8A;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.hero p{
+
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+/* Buttons */
+
+.btn{
+
+    display: inline-block;
+    background-color: #1E3A8A;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+
+    background-color: #2563EB;
+
+}
+.about{
+
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+
+}
+
+.about h2{
+
+    color: #1E3A8A;
+    margin-bottom: 20px;
+
+}
+
+.about img{
+
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.about p{
+
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 25px;
+
+}
+/* Call To Action */
+
+.cta{
+
+    width: 90%;
+    margin: 40px auto;
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+
+}
+
+.cta h2{
+
+    margin-bottom: 20px;
+
+}
+
+.cta p{
+
+    width: 70%;
+    margin: auto;
+    line-height: 1.7;
+    margin-bottom: 30px;
+
+}
+.cta .btn{
+
+    background-color: white;
+    color: #1E3A8A;
+
+}
+
+.cta .btn:hover{
+
+    background-color: #EAF4FF;
+
+}
+/* Featured Courses */
+
+.courses{
+
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.courses h2{
+
+    color: #1E3A8A;
+    margin-bottom: 30px;
+
+}
+.course-card{
+
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+
+}
+.course-card h3{
+
+    color: #1E3A8A;
+    margin-bottom: 15px;
+
+}
+.course-card p{
+
+    color: #444;
+    line-height: 1.6;
+
+}
+.course-card:hover{
+
+    background-color: #F5F9FF;
+
+}
+/* Why Choose Us */
+
+.choose{
+
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+
+}
+.choose h2{
+
+    color: #1E3A8A;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+.choose ul{
+
+    list-style: none;
+    padding: 0;
+    width: 70%;
+    margin: auto;
+
+}
+.choose li{
+
+    background-color: #F5F9FF;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    color: #333;
+    text-align: left;
+
+}
+.choose li:hover{
+
+    background-color: #DCEBFF;
+
+}
+
+
+
+
+.contact{
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.contact h2{
+    color: #1E3A8A;
+    margin-bottom: 20px;
+}
+.contact p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+.contact i{
+    color: #2563EB;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.contact a:hover{
+    color: #2563EB;
+    text-decoration: underline;
+}
+footer{
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p{
+    margin: 8px 0;
+}

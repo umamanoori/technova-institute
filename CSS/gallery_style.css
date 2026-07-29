@@ -1,8 +1,10 @@
 body{
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EAF4FF;
+
 }
 header{
 
@@ -46,36 +48,9 @@ nav a:hover{
     text-decoration:underline;
 
 }
-.hero{
+/* Gallery Section */
 
-    text-align: center;
-
-    padding: 40px 20px;
-
-}
-.hero h2{
-
-    color: #1E3A8A;
-
-    font-size: 32px;
-
-    margin-bottom: 15px;
-
-}
-.hero p{
-
-    color: #555;
-
-    font-size: 18px;
-
-    width: 70%;
-
-    margin: auto;
-
-    line-height: 1.6;
-
-}
-.timetable{
+.gallery{
 
     width: 90%;
     margin: 40px auto;
@@ -83,107 +58,58 @@ nav a:hover{
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
 
 }
-.timetable h2{
+.gallery h2{
 
-    text-align: center;
     color: #1E3A8A;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
 }
-.timetable p{
 
-    text-align: center;
+.gallery p{
+
     color: #555;
-    margin-bottom: 25px;
+    font-size: 17px;
+    margin-bottom: 30px;
 
 }
-table{
+.gallery-container{
 
     width: 100%;
-    border-collapse: collapse;
-    text-align: center;
 
 }
-caption{
+.gallery-item{
 
-    font-size: 22px;
-    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.gallery-item img{
+
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #D6E4FF;
+
+}
+.gallery-item figcaption{
+
+    margin-top: 10px;
     color: #1E3A8A;
-    margin-bottom: 20px;
-
-}
-th{
-
-    background-color: #1E3A8A;
-    color: white;
-    padding: 15px;
-
-}
-td{
-
-    padding: 15px;
-    border: 1px solid #ddd;
-
-}
-tr:nth-child(even){
-
-    background-color: #F5F9FF;
-
-}
-tr:hover{
-
-    background-color: #DCEBFF;
-
-}
-.lunch{
-
-    background-color: #FFD54F;
-    font-weight: bold;
-    color: #333;
-
-}
-.lab{
-
-    background-color: #C8E6C9;
     font-weight: bold;
 
 }
-.meeting{
+.gallery-item img:hover{
 
-    background-color: #FFCDD2;
-    font-weight: bold;
-
-}
-.notes{
-
-    width: 90%;
-    margin: 40px auto;
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    border-color: #2563EB;
 
 }
-.notes h2{
 
-    color: #1E3A8A;
-    text-align: left;
-    margin-bottom: 20px;
 
-}
-.notes ul{
 
-    padding-left: 20px;
-    line-height: 2;
 
-}
-.notes li{
 
-    color: #444;
 
-}
 .contact{
     width: 90%;
     margin: 40px auto;

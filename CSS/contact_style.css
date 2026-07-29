@@ -1,8 +1,10 @@
 body{
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EAF4FF;
+
 }
 header{
 
@@ -46,36 +48,37 @@ nav a:hover{
     text-decoration:underline;
 
 }
+/* Hero Section */
+
 .hero{
 
+    background-color: #EAF4FF;
+    color: #1E3A8A;
     text-align: center;
-
-    padding: 40px 20px;
+    padding: 70px 20px;
 
 }
+
 .hero h2{
 
-    color: #1E3A8A;
-
-    font-size: 32px;
-
+    font-size: 36px;
     margin-bottom: 15px;
+    text-transform: uppercase;
 
 }
+
 .hero p{
 
-    color: #555;
-
-    font-size: 18px;
-
     width: 70%;
-
     margin: auto;
-
+    font-size: 18px;
     line-height: 1.6;
+    color: #444;
 
 }
-.timetable{
+/* Contact Form */
+
+.contact-form{
 
     width: 90%;
     margin: 40px auto;
@@ -85,105 +88,117 @@ nav a:hover{
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
 
 }
-.timetable h2{
+
+.contact-form h2{
 
     text-align: center;
     color: #1E3A8A;
-    margin-bottom: 10px;
-
-}
-.timetable p{
-
-    text-align: center;
-    color: #555;
     margin-bottom: 25px;
 
 }
-table{
+.contact-form label{
 
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-
-}
-caption{
-
-    font-size: 22px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
     font-weight: bold;
     color: #1E3A8A;
+
+}
+.contact-form input{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #BFCDEB;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+.contact-form textarea{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #BFCDEB;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
     margin-bottom: 20px;
 
 }
-th{
+.contact-form button{
 
     background-color: #1E3A8A;
     color: white;
-    padding: 15px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
 
 }
-td{
+.contact-form button:hover{
 
-    padding: 15px;
-    border: 1px solid #ddd;
-
-}
-tr:nth-child(even){
-
-    background-color: #F5F9FF;
+    background-color: #2563EB;
 
 }
-tr:hover{
-
-    background-color: #DCEBFF;
-
-}
-.lunch{
-
-    background-color: #FFD54F;
-    font-weight: bold;
-    color: #333;
-
-}
-.lab{
-
-    background-color: #C8E6C9;
-    font-weight: bold;
-
-}
-.meeting{
-
-    background-color: #FFCDD2;
-    font-weight: bold;
-
-}
-.notes{
+.contact-info{
 
     width: 90%;
     margin: 40px auto;
     background-color: white;
-    padding: 25px;
+    padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
 
 }
-.notes h2{
+.contact-info h2{
 
     color: #1E3A8A;
-    text-align: left;
+    margin-bottom: 25px;
+
+}
+.contact-info p{
+
+    margin: 18px 0;
+    color: #444;
+    font-size: 17px;
+
+}
+.contact-info i{
+
+    color: #1E3A8A;
+    margin-right: 8px;
+
+}
+.map{
+
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+
+}
+.map h2{
+
+    color: #1E3A8A;
     margin-bottom: 20px;
 
 }
-.notes ul{
+.map iframe{
 
-    padding-left: 20px;
-    line-height: 2;
-
-}
-.notes li{
-
-    color: #444;
+    width: 100%;
+    border-radius: 10px;
 
 }
+
+
+
+
 .contact{
     width: 90%;
     margin: 40px auto;
